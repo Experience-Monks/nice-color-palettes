@@ -1,6 +1,6 @@
 {
   "name": "nice-color-palettes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nice colour palettes as JSON",
   "main": "./100.json",
   "license": "MIT",
@@ -15,9 +15,7 @@
     "new-array": "^1.0.0",
     "xhr-request": "^1.0.1"
   },
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "node test.js",
     "update": "./cmd.js 100 > 100.json && ./cmd.js "
