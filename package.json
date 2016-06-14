@@ -1,0 +1,55 @@
+{
+  "name": "nice-color-palettes",
+  "version": "1.0.0",
+  "description": "200 nice colour palettes as JSON",
+  "main": "./100.json",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "map-limit": "0.0.1",
+    "minimist": "^1.2.0",
+    "new-array": "^1.0.0",
+    "xhr-request": "^1.0.1"
+  },
+  "devDependencies": {
+    
+  },
+  "scripts": {
+    "test": "node test.js",
+    "update": "./cmd.js 100 > 100.json && ./cmd.js "
+  },
+  "keywords": [
+    "json",
+    "color",
+    "palette",
+    "palettes",
+    "nice",
+    "colors",
+    "tmp",
+    "asset",
+    "test",
+    "colour",
+    "colours",
+    "lover",
+    "colourlover",
+    "api",
+    "hex",
+    "rgb",
+    "palettes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/nice-color-palettes.git"
+  },
+  "homepage": "https://github.com/Jam3/nice-color-palettes",
+  "bugs": {
+    "url": "https://github.com/Jam3/nice-color-palettes/issues"
+  },
+  "bin": {
+    "nice-color-palettes": "./bin/index.js"
+  }
+}
