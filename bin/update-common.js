@@ -4,11 +4,12 @@ var fetch = require('./fetch');
 
 var outDir = path.resolve(__dirname, '../');
 
-fetch(500, function (err, palettes) {
+fetch(1000, function (err, palettes) {
   if (err) throw err;
   write(100);
   write(200);
   write(500);
+  write(1000);
 
   console.log(new Date().toString());
 

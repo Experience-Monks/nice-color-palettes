@@ -43,9 +43,12 @@ require('nice-color-palettes/200');
 
 // top 500 palettes
 require('nice-color-palettes/500');
+
+// top 1000 palettes
+require('nice-color-palettes/1000');
 ``` 
 
-*Note:* Palettes with less than 5 colors are filtered out for consistency, so you may end up with a slightly different number in the JSON, like 495 palettes instead of 500.
+*Note:* Duplicate palettes and palettes with less than 5 colors are filtered out for the sake of consistency, so you may end up with a slightly different number in the JSON, like 495 palettes instead of 500.
 
 ## CLI Usage
 

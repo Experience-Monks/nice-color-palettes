@@ -15,7 +15,10 @@
     "new-array": "^1.0.0",
     "xhr-request": "^1.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "array-equal": "^1.0.0",
+    "uniq": "^1.0.1"
+  },
   "scripts": {
     "test": "node test.js",
     "update": "./cmd.js 100 > 100.json && ./cmd.js "
