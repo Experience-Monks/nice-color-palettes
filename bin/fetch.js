@@ -33,6 +33,7 @@ module.exports = function (totalCount, cb) {
         return '#' + color.toLowerCase();
       });
     });
+    palettes = palettes.filter(f => f.length === 5);
     console.error('Total palettes:', palettes.length);
     cb(null, palettes);
   });
