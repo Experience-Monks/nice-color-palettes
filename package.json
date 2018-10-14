@@ -10,10 +10,10 @@
     "url": "https://github.com/mattdesl"
   },
   "dependencies": {
+    "got": "^9.2.2",
     "map-limit": "0.0.1",
     "minimist": "^1.2.0",
-    "new-array": "^1.0.0",
-    "xhr-request": "^1.0.1"
+    "new-array": "^1.0.0"
   },
   "devDependencies": {
     "array-equal": "^1.0.0",
