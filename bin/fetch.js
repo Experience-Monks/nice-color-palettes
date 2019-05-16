@@ -1,7 +1,19 @@
-var request = require('xhr-request');
+var got = require('got');
 var mapLimit = require('map-limit');
 var newArray = require('new-array');
 var arrayEqual = require('array-equal');
+
+function request (url, cb) {
+  try {
+    got(url, { json: true })
+      .then(response => {
+        cb(null, response.body);
+      })
+      .catch((err) => cb(err));
+  } catch (err) {
+    cb(err);
+  }
+}
 
 module.exports = function (totalCount, cb) {
   if (typeof totalCount !== 'number') {
@@ -13,9 +25,7 @@ module.exports = function (totalCount, cb) {
   function next (page, cb) {
     console.error('Page %d / %d', (page + 1), totalPages);
     var api = 'http://www.colourlovers.com/api/palettes/top?format=json&numResults=100&resultOffset=' + (page * 100);
-    request(api, {
-      json: true
-    }, function (err, data) {
+    request(api, function (err, data) {
       cb(err, data);
     });
   }

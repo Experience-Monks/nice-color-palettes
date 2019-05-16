@@ -1,6 +1,6 @@
 {
   "name": "nice-color-palettes",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "nice colour palettes as JSON",
   "main": "./100.json",
   "license": "MIT",
@@ -10,13 +10,15 @@
     "url": "https://github.com/mattdesl"
   },
   "dependencies": {
+    "got": "^9.2.2",
     "map-limit": "0.0.1",
     "minimist": "^1.2.0",
-    "new-array": "^1.0.0",
-    "xhr-request": "^1.0.1"
+    "new-array": "^1.0.0"
   },
   "devDependencies": {
     "array-equal": "^1.0.0",
+    "canvas-sketch": "0.0.27",
+    "canvas-sketch-cli": "^1.1.3",
     "uniq": "^1.0.1"
   },
   "scripts": {

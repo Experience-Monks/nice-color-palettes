@@ -4,9 +4,9 @@
 
 A JSON of the top color palettes on [ColourLovers.com](http://colourlovers.com/), as RGB hex strings.
 
-###### *Last updated Jul 03 2017*
+###### *Last updated Oct 14 2018*
 
-![colors](https://i.imgur.com/XYYM4qp.png)
+![colors](visualize/1000.png)
 
 ## Example
 
