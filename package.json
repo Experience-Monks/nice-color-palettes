@@ -1,6 +1,6 @@
 {
   "name": "nice-color-palettes",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "nice colour palettes as JSON",
   "main": "./100.json",
   "license": "MIT",
